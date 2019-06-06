@@ -13,12 +13,7 @@ export default {
       default: "Push the button",
       type: String
     }
-  },
-
-  data() {
-    return {
-      introText: 'Push the button',
-    }
-  },
+  }
 }
+
 </script>
