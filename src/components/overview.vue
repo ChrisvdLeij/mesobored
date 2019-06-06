@@ -5,7 +5,7 @@
   </div>
   <div v-else>
 
-    <Result :activity="getResult" />
+    <Result :activity="getActivity" />
 
     <FilterItem v-for="(filter, index) in filters" :filter="filter" @input="onChange" :key="index" />
 
@@ -65,7 +65,7 @@ export default {
       return query
     },
 
-    getResult() {
+    getActivity() {
       return this.data.activity
     }
   },
