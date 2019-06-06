@@ -1,0 +1,5 @@
+node_modules
+build
+.git
+gulp/user-config.js
+/gulp.user-config.js
